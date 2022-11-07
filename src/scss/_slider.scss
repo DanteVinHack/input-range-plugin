@@ -1,0 +1,38 @@
+.slider {
+  position: relative;
+  width: 30%;
+  height: 10px;
+
+  background: none;
+  border-radius: 1rem;
+  border: 1px solid green;
+
+  &-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+
+    width: 10px;
+
+    border-radius: 1rem;
+    background: green;
+  }
+
+  &-dot {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 100;
+
+    width: 15px;
+    height: 15px;
+
+    background: green;
+    border-radius: 50%;
+
+    translate: 0 -50%;
+
+  }
+}

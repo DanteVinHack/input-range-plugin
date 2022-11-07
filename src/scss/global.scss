@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#number {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.preview {
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+.btn {
+  outline: none;
+  border: 1px solid $primary;
+  border-radius: .4rem;
+  background: none;
+
+  padding: 0.5rem;
+
+  color: $primary;
+  text-transform: uppercase;
+
+  transition: .3s;
+
+  &:hover {
+    color: black;
+    background: $primary;
+  }
+}
